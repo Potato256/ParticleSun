@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\glad.c">
+      <Filter>依赖</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\planets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vboClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\particles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders\sun_Fshader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\sun_Vshader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\particle_Fshader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\particle_Vshader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\moon_Fshader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\shaders\moon_Vshader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\resources\models\globe.vbo">
+      <Filter>resources\models</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{cd1f4171-7aec-41cd-9403-24e114639730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{3846f472-5bb7-43e6-aae0-2e4aa9a9d4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="依赖">
+      <UniqueIdentifier>{9f0ec779-bafb-4072-b9df-3ce9854fb593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{1fd53e84-d6d9-48bb-b729-f0571274f9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\models">
+      <UniqueIdentifier>{516b162e-9b82-4260-a741-e06535188fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures">
+      <UniqueIdentifier>{2f4bea98-06ca-481e-9b0a-747bb9de6802}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\resources\textures\moon.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\sun.jpg">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\FlameElement.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="..\resources\textures\FireBall1.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
